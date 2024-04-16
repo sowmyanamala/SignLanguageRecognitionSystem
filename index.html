@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Language Recognition System UI</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 20px;
+    background-color: skyblue;
+  }
+  .navbar {
+    background-color: #007bff;
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .main-area {
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  .video-feed {
+    background-color: #ddd;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border-radius: 8px;
+    display: block;
+    background-image: url('image1.png'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+  }
+  .video-feed-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .buttons {
+    padding-top: 20px;
+  }
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .output-text {
+    background-color: #f0f8ff;
+    border: solid 2px #007bff;
+    height: 150px;
+    width: 30%;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 8px;
+  }
+  .output-text p {
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">HOME</a>
+  <a href="#about">ABOUT</a>
+</div>
+
+<div class="main-area">
+  <div class="video-feed-title">Sign Language Translation</div>
+  <div class="video-feed"></div>
+  <div class="buttons">
+    <button onclick="startWebcam()">Start Webcam</button>
+    <button onclick="uploadImage()">Upload Image</button>
+    <button onclick="showTutorial()">Signs Tutorial</button>
+  </div>
+  <div class="output-text">
+    <p>Output Text</p>
+  </div>
+</div>
+
+<script>
+// Placeholder functions for starting the webcam, uploading an image, and showing the tutorial.
+function startWebcam() {
+  // Function to start webcam feed
+}
+
+function uploadImage() {
+  // Function to handle image upload
+}
+
+function showTutorial() {
+  // Function to show sign language tutorials
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Language Recognition System - Webcam</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: #007bff;
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .main-area {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  .webcam-feed {
+    width: 80%;
+    height: 400px;
+    background-image: url('image3.png'); /* Replace with the path to your dummy human picture */
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    position: relative;
+  }
+  .capture-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .output-text {
+    border: solid 2px #007bff;
+    height: 150px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">HOME</a>
+  <a href="#about">ABOUT</a>
+</div>
+
+<div class="main-area">
+  <div class="webcam-feed">
+    <!-- The webcam video or image will go here -->
+    <button class="capture-btn" onclick="captureSign()">Capture</button>
+  </div>
+  <div class="output-text">
+    <p>Output Text</p>
+    <!-- The output text will be displayed here -->
+  </div>
+</div>
+
+<script>
+function captureSign() {
+  // Add the JavaScript code for capturing the sign from the webcam feed
+}
+</script>
+
+</body>
+</html>
